@@ -1,0 +1,35 @@
+/* Container styling */
+.trending-container {
+  width: 100%;
+  height: 50px; /* Adjust height as needed */
+  overflow: hidden;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Trending text styling */
+.trending-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: scrollText 10s linear infinite;
+}
+
+.trending-text span {
+  font-size: 20px; /* Adjust font size as needed */
+  color: #333;
+  margin: 10px 0; /* Space between each text */
+}
+
+/* Animation for scrolling text */
+@keyframes scrollText {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

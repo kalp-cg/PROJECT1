@@ -1,0 +1,629 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.forp2{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 5vh;
+}
+
+.forp2>p{
+    display: inline-block;
+    animation: scroll 5s linear infinite;
+    margin-top: 1vh;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}.forp2{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 5vh;
+}
+
+.forp2>p{
+    display: inline-block;
+    animation: scroll 5s linear infinite;
+    margin-top: 1vh;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+
+.mainsection1 {
+    display: flex;
+    column-gap: 4vh;
+    margin-top: 2vh;
+    margin-left: 10vh;
+    align-items: center;
+}
+
+.forimg1 >img{
+    width: 120px;
+    height: 30px;
+}
+
+.forp1>p{
+    
+    display: flex;
+}
+
+
+
+.scroll >img{
+    width: 100%;
+    height: 350px;
+}
+
+.forimg2{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+}
+
+.scroll{
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
+
+.scroll>img{
+    width: 100%;
+    height: auto;
+    flex: 0 0 auto;
+}
+
+@keyframes scroll{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-500%); 
+    }
+}
+
+.forimg3 >img{
+    width: 33vh;
+    height: 50vh;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.forimg3{
+    margin-top: 9vh;
+    margin-left:25vh;
+    column-gap: 4vh;
+    justify-content: space-between;
+    /* position: relative; */
+    height: auto;
+}
+
+.forimg3 >p{
+    transform: translate(80%, -50%);
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-left: 115vh;
+    font-size: 3.5rem;
+    margin-top: -45vh;
+    font-weight: bold;
+}
+
+.forimg3 >span{
+   position: absolute;
+   text-align: center;
+   bottom: -20% ;
+   transform: translate(-140%, -50%); 
+   color: white;
+
+}
+
+.forimg4 >  img{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 11vh;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+.TRENDING{
+    display: flex;
+    background-color: black;
+    color: white;
+    column-gap: .5vh;
+    flex-direction: row;
+    
+}
+
+.TRENDING > img{
+    height: 7px;
+    width: 7px;
+    margin-top: .8vh;
+    animation: fadeInOut 5s infinite;
+    background-size: cover;
+}
+/* 
+@keyframes fadeInOut {
+    0% {  transform: translate(100%);}
+    100% {  transform: translate(-200%);}
+  } */
+
+  .TRENDING > li{
+    animation: textScroll 10s linear infinite;
+ }
+
+ @keyframes textScroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .TRENDING{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+.forimgt{
+    display: flex;
+    margin-top: 10vh;
+    margin-left: vh;
+    flex-direction: row;
+}
+
+.forul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 4vh;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 4vh;
+}
+
+.forul > li{
+    display: inline-block;
+    animation: loop 10s linear infinite;
+    margin-top: 1vh;
+}
+
+@keyframes loop {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+
+.forh{
+    margin-left: 27vh;
+    margin-top: 10vh;
+}
+
+.forwatch{
+    margin-left: 28vh;
+   border: 1px solid black;
+   /* margin-right: 160vh; */
+   
+}
+
+.forinner{
+    display: flex;
+    flex-direction: row;
+}
+
+.forinner > span{
+    margin-top: -.4vh;
+    margin-left: 1vh;
+}
+
+ /* .forwatch2{ 
+    margin-left: 11vh;
+    margin-top: 10vh;
+ } */
+
+ .forwatch2{
+    /* margin-right: 11vh; */
+   border: 1px solid black;
+   margin-right: 160/vh;
+   
+}
+
+.forinner2{
+    display: flex;
+    flex-direction: row;
+}
+
+.forinner2 > span{
+    margin-top: -.4vh;
+    margin-left: 1vh;
+}
+/* 
+ .forwatch3{ 
+    margin-left: 11vh;
+    margin-top: 10vh; 
+  }  */
+
+ .forwatch3{
+    /* margin-right: 11vh; */
+   border: 1px solid black;
+   /* margin-right: 160vh; */
+   
+}
+
+.forinner3{
+    display: flex;
+    flex-direction: row;
+}
+
+.forinner3 > span{
+    margin-top: -.4vh;
+    margin-left: 1vh;
+}
+
+
+/* 
+.forwatch4{ 
+    margin-left: 11vh;
+    margin-top: 10vh;
+ } */
+
+ .forwatch4{
+    margin-right: 50vh;
+   border: 1px solid black;
+   /* margin-right: 160vh; */
+   
+}
+
+.forinner4{
+    display: flex;
+    flex-direction: row;
+}
+
+.forinner4 > span{
+    margin-top: -.4vh;
+    margin-left: 1vh;
+}
+
+.forwatchblock{
+   display: flex;
+   flex-direction: row;
+   column-gap: 2vh;
+   margin-top: 8vh;
+}
+
+
+.forh1{
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+
+.image-container {
+    position: relative;
+    width: 500px; 
+    height: auto; 
+    /* border: 1px solid white; */
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 9vh;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: auto;
+    margin-left: 24vh;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 444px; 
+    left: 175px; 
+    width: 380px;
+    height: auto;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 20px; 
+    right: 130px;
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+    transition: all 0.7s ease;
+
+  }
+   
+  .text-overlay:hover {
+    right: 10px; /* New position when hovered */
+    color: white; /* Optional: change color on hover */
+  }
+
+
+  
+.image-container1 {
+    position: relative;
+    width: 500px; 
+    height: auto; 
+    /* border: 1px solid white; */
+    /* border-radius: 10px 10px 10px 10px; */
+    margin-left: -8vh;
+  }
+  
+  .background-image1 {
+    width: 100%;
+    height: auto;
+    margin-left: 24vh;
+  }
+  
+  .overlay-image1 {
+    position: absolute;
+    top: 444px; 
+    left: 175px; 
+    width: 380px;
+    height: auto;
+  }
+  
+  .text-overlay1 {
+    position: absolute;
+    bottom: 20px; 
+    right: 250px;
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+    transition: all 0.7s ease;
+
+  }
+   
+  .text-overlay1:hover {
+    right: 10px; /* New position when hovered */
+    color: white; /* Optional: change color on hover */
+  }
+
+  
+   
+.image-container2 {
+    position: relative;
+    width: 500px; 
+    height: auto; 
+    /* border: 1px solid white; */
+    /* border-radius: 10px 10px 10px 10px; */
+    margin-left: -8vh;
+  }
+  
+  .background-image2 {
+    width: 100%;
+    height: auto;
+    margin-left: 24vh;
+  }
+  
+  .overlay-image2 {
+    position: absolute;
+    top: 444px; 
+    left: 175px; 
+    width: 380px;
+    height: auto;
+  }
+  
+  .text-overlay2 {
+    position: absolute;
+    bottom: 20px; 
+    right: 240px;
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+    transition: all .5s ease;
+
+  }
+   
+  .text-overlay2:hover {
+    right: 10px; /* New position when hovered */
+    color: white; /* Optional: change color on hover */
+  }
+
+  .mainsection2{
+    display: flex;
+    margin-left: -15vh;
+    column-gap: .1px;
+    
+  }
+
+  .forh2{
+    margin-left: 27vh;
+    margin-top: 10vh;
+  }
+
+ 
+.forwatch5{
+    margin-left: 28vh;
+   border: 1px solid black;
+   /* margin-right: 160vh; */
+   
+}
+
+.forinner5{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vh;
+}
+
+.forinner5 > span{
+    margin-top: -.4vh;
+    margin-left: 1vh;
+}
+
+ /* .forwatch6{ 
+    margin-left: 11vh;
+    margin-top: 10vh;
+ } */
+
+ .forwatch6{
+    /* margin-right: 11vh; */
+   border: 1px solid black;
+   margin-right: 160/vh;
+   
+}
+
+.forinner6{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vh;
+}
+
+.forinner6 > span{
+    margin-top: -.4vh;
+    margin-left: 1vh;
+}
+/* 
+ .forwatch7{ 
+    margin-left: 11vh;
+    margin-top: 10vh; 
+  }  */
+
+ .forwatch7{
+    /* margin-right: 11vh; */
+   border: 1px solid black;
+   /* margin-right: 160vh; */
+   
+}
+
+.forinner7{
+    display: flex;
+    flex-direction: row;
+}
+
+.forinner7 > span{
+    margin-top: -.4vh;
+    margin-left: 1vh;
+}
+
+
+/* 
+.forwatch8{ 
+    margin-left: 11vh;
+    margin-top: 10vh;
+ } */
+
+ .forwatch8{
+    margin-right: 50vh;
+   border: 1px solid black;
+   /* margin-right: 160vh; */
+   
+}
+
+.forinner8{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vh;
+}
+
+.forinner8 > span{
+    margin-top: -.4vh;
+    margin-left: 1vh;
+}
+
+.mainsection3{
+   display: flex;
+   flex-direction: row;
+   column-gap: 2vh;
+   margin-top: 8vh;
+}
+
+
+
+.scroll2 >img{
+    width: 80%;
+    height: 250px;
+}
+
+.forimg5{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    margin-top: 10vh;
+}
+
+.scroll2{
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
+
+.scroll2>img{
+    width: 80%;
+    height: auto;
+    flex: 0 0 auto;
+}
+
+@keyframes scroll2{
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-500%); 
+    }
+}
+
+
+.video-container{
+    width: 50%;
+    height: auto;
+    margin: 0 auto ;
+    border: 2 px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+/* .video-container {
+    position: absolute;
+    /* top: 100px; Adjust as needed */
+    /* left: 200px; /* Adjust as needed */
+    /* width: 900px; */
+/* } */
+
+.forwandp{
+    border: 1px solid rgb(255, 255, 255);
+    margin-right: 30vh;
+    margin-left: 32vh;
+    margin-top: 7vh;
+}
+
+.mainsection4{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5vh;
+    box-sizing: border-box;
+    margin-top: 7vh;
+    
+}
+
+
+.forimg6 > img{
+    margin-left: -20vh;
+    margin-right: 20vh;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+.mainsection5{
+    display: flex;
+}
